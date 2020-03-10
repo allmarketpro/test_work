@@ -1,0 +1,47 @@
+{%set onenewsLabel = "LOVE"%}
+{%set onenewsH = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do"%}
+{%set onenewsPre = "You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves? Tell everyone about your experience and skills."%}
+
+{%set twonewsLabel = "tree"%}
+{%set twonewsH = "Lorem ipsum dolor sit amet, <span>consectetur</span> adipisicing elit,"%}
+{%set twonewsPre = "The way to a successful brand is hard, but always very interesting. Share the full story of your project – from the very first day until now."%}
+
+{%set threenewsLabel = "WATER"%}
+{%set threenewsH = "LITTLE PIECES OF<br>OUR PROUDNESS"%}
+{%set threenewsPre = "What do you do better than your competitors? What are you proud of? What details and advantages of your product you want people to know about?"%}
+
+<div class="inner_content">
+	<div class="b-news">
+		<div class="news__column_left">
+			<div class="column__left_onenews">
+				<div class="onenews__img"><img src="../img/ico-news1.png"></div>
+				<div class="onenews__text">
+					<div class="news__text_label">{{ onenewsLabel }}</div>
+					<div class="news__text_h">{{ onenewsH }}</div>
+					<div class="news__text_pre">{{ onenewsPre }}</div>
+					<div class="number-news">01</div>
+				</div>
+			</div>
+			<div class="column__left_twonews">
+				<div class="twonews__text">
+					<div class="news__text_label">{{ twonewsLabel }}</div>
+					<div class="news__text_h">{{ twonewsH }}</div>
+					<div class="news__text_pre">{{ twonewsPre }}</div>
+					<div class="number-news">02</div>
+				</div>
+				<div class="twonews__img"><img src="../img/ico-news2.png"></div>
+			</div>
+		</div>
+		<div class="news__column_right">
+			<div class="column__right_threenews">
+				<div class="threenews__img"><img src="../img/ico-news3.png"></div>
+				<div class="threenews__text">
+					<div class="news__text_label">{{ threenewsLabel }}</div>
+					<div class="news__text_h">{{ threenewsH }}</div>
+					<div class="news__text_pre">{{ threenewsPre }}</div>
+					<div class="number-news">03</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

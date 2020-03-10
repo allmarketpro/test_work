@@ -1,0 +1,27 @@
+{% extends "layouts/default.html" %}
+{% set title = "our journal" %}
+{% block content %}
+{% set pageTitleNews = "our journal" %}
+{% set pageTitleWork = "HOW WE WORK" %}
+{% set pageTitleGallery = "Gallery" %}
+{% set pageTitleClients = "our Clients say" %}
+<!-- Новостной блок в шапке -->
+{% include "includes/header_news.html" %}
+{% include "includes/news_block.html" %}
+<!-- Порядок работы -->
+{% include "includes/header_work.html" %}
+{% include "includes/work_block.html" %}
+<!-- Туры -->
+{% include "includes/travel_block.html" %}
+<!-- галерея -->
+{% include "includes/header_gallery.html" %}
+{% include "includes/gallery_block.html" %}
+<!-- партнеры -->
+{% include "includes/partners_block.html" %}
+<!-- отзывы, подвал -->
+{% include "includes/header_clients.html" %}
+{% include "includes/clients_block.html" %}
+
+
+
+{% endblock %}

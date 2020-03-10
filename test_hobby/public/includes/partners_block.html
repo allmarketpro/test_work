@@ -1,0 +1,15 @@
+{%set partners = ["<img src='../img/partners1.jpg'>","<img src='../img/partners2.jpg'>","<img src='../img/partners3.jpg'>","<img src='../img/partners4.jpg'>","<img src='../img/partners5.jpg'>","<img src='../img/partners6.jpg'>"]%}
+
+
+<div class="b-partners">
+	<div class="inner_content">
+		<div class="b-partners__items">
+			{% for value in partners %}
+				{{ value }}
+			{% endfor %}
+		</div>
+	</div>
+</div>
+
+
+
